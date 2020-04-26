@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto|Roboto+Condensed&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-color: #eeeeee;
+    
+}
+
+.container .introduction {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.introduction h1, p {
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.introduction .intro-bold {
+    font-weight: 700;
+}
+
+.flex-container  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.flex-container .box {
+    border-radius: 15px;
+    border-top: 3px solid #f22613;
+    background: #ffffff;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 10px 18px #888888;
+    margin: 10px;
+}
+
+.flex-container h1, p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#box1 {
+    margin-top: 150px;
+    border-top: 3px solid #19b5fe;
+}
+
+#box2 {
+    margin-top: 150px;
+    border-top: 3px solid #1f3a93;
+}
+
+#box3 {
+    border-top: 3px solid #f5ab35;
+    top: 80%;
+}
+
+svg {
+    margin-top: 50px;
+    margin-left: 240px;
+}
+
+
+
